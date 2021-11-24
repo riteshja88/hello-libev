@@ -1,3 +1,4 @@
+```
 host:~$/hello-libev$gcc hello-libev.c -lev    │host:~$$nc localhost 3033
 host:~$/hello-libev$./a.out                   │hi from client1
 message:hi from client1                       │hi from client1
@@ -8,6 +9,7 @@ message:bye from client2                      │bye from client1
 message:bye from client1                      │^C
 peer might closing: Success                   │host:~$$
 peer might closing: Success                   │
+                                              │
                                               │
                                               │
                                               ├───────────────────────────────────────
@@ -21,3 +23,7 @@ peer might closing: Success                   │
                                               │^C
                                               │host:~$$
                                               │
+                                              │
+                                              │
+
+```
